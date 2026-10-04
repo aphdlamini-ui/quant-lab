@@ -18,6 +18,7 @@ dependencies = [
     "py-vollib>=1.0.12",
     "pyarrow>=25.0.1",
     "python-dotenv>=1.2.4",
+    "pyyaml>=6.0.3",
     "quantlib>=1.43",
     "requests>=2.34.2",
     "riskfolio-lib>=7.4.0",

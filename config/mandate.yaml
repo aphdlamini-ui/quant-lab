@@ -1,0 +1,43 @@
+﻿pod:
+  capital: 150000000
+  vol_target: 0.05
+  vol_scale_down_above: 0.065
+  vol_hard_cap: 0.08
+  target_sharpe: 2.6
+
+gross:
+  target: 5.0
+  pod_min: 4.0
+  pod_max: 6.0
+  firm_max: 6.5
+  sleeves: {equity: 3.4, futures: 1.2, options: 0.4}
+
+exposure:
+  net_dollar_max: 0.05
+  net_beta_target: 0.02
+  net_beta_max: 0.05
+
+positions:
+  name_cap: 0.015
+  name_soft: 0.010
+  sector_net_hard: 0.12
+  sector_net_soft: 0.06
+
+universe:
+  min_adv_usd: 45000000
+  min_market_cap_usd: 5000000000
+  max_borrow_bps: 50
+
+liquidity:
+  participation: 0.15
+  stress_haircut: 0.50
+  window_hours: 4.0
+  session_hours: 6.5
+
+drawdown:
+  alert: 0.02
+  governor_start: 0.02
+  governor_end: 0.03
+  governor_floor: 0.75
+  soft_stop: 0.035
+  hard_stop: 0.06
